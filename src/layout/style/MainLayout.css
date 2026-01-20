@@ -49,9 +49,10 @@ html {
 /* =========================
    RESPONSIVE
 ========================= */
-
+/* just check */
 @media (max-width: 768px) {
   .content-area {
     padding: 0;
   }
 }
+
