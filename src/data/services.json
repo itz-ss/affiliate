@@ -1,0 +1,69 @@
+{
+  "services": [
+    {
+      "slug": "affiliate-marketing",
+      "title": "Affiliate Marketing & Partnership Management",
+      "image": "/services/affiliate.jpg",
+      "description": "We build and manage high-performing affiliate programs that help brands scale through trusted partners, creators, and publishers. By designing smart commission structures, enabling affiliates with the right assets, and tracking performance accurately, we create partnerships that drive consistent, performance-based revenue with minimal upfront risk.",
+      "points": [
+        "Affiliate program setup and optimization",
+        "Partner onboarding and relationship management",
+        "Commission structure and payout strategy",
+        "Performance tracking and fraud prevention",
+        "Long-term revenue-focused partnerships"
+      ]
+    },
+    {
+      "slug": "paid-traffic-strategy",
+      "title": "Paid Traffic Strategy (Facebook, Google, TikTok, Native, etc.)",
+      "image": "/services/traffic.jpg",
+      "description": "Our paid traffic strategies are engineered to capture high-intent audiences across major advertising platforms. We combine audience research, creative testing, and funnel alignment to generate quality leads and sales while keeping acquisition costs controlled and scalable.",
+      "points": [
+        "Multi-platform ad strategy and execution",
+        "Audience research and advanced targeting",
+        "Creative testing and performance optimization",
+        "Budget planning and controlled scaling",
+        "Cost-per-lead and ROI optimization"
+      ]
+    },
+    {
+      "slug": "conversion-optimization",
+      "title": "Conversion Optimization & Campaign Scaling",
+      "image": "/services/conversion.jpg",
+      "description": "Traffic alone does not guarantee growth. We focus on optimizing every step of the user journey to increase conversions and reduce drop-offs. Once campaigns achieve consistent results, we scale them systematically to maximize profitability without compromising performance.",
+      "points": [
+        "Landing page and funnel optimization",
+        "A/B testing for creatives and messaging",
+        "Conversion rate improvement strategies",
+        "Data-driven campaign scaling",
+        "Profit-focused growth frameworks"
+      ]
+    },
+    {
+      "slug": "analytics-tracking",
+      "title": "Data Analytics, Tracking & Attribution",
+      "image": "/services/analysis.jpg",
+      "description": "Accurate data is the foundation of successful marketing. We implement advanced analytics, tracking, and attribution systems that provide complete visibility into campaign performance, helping businesses make informed decisions and allocate budgets effectively.",
+      "points": [
+        "Analytics and tracking setup",
+        "Conversion and event tracking",
+        "Attribution modeling and reporting",
+        "Performance dashboards and insights",
+        "Data-driven decision making"
+      ]
+    },
+    {
+      "slug": "content-creation",
+      "title": "Content Creation & Optimized Messaging",
+      "image": "/services/content.jpg",
+      "description": "Powerful content and clear messaging drive engagement and conversions. We create compelling visuals, videos, ad creatives, and copy that resonate with audiences, align with platform algorithms, and communicate brand value across every channel.",
+      "points": [
+        "High-converting ad creatives and visuals",
+        "Strategic copywriting and messaging",
+        "Video and short-form content creation",
+        "Platform-specific content optimization",
+        "Brand-consistent communication"
+      ]
+    }
+  ]
+}

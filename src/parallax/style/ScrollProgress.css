@@ -1,0 +1,32 @@
+.spx {
+  position: fixed;
+  top: 12px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.spx__bar {
+  height: 3px;
+  width: 100%;
+  transform-origin: 0 50%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ff4d8d, #ffb86b);
+  box-shadow: 0 10px 35px rgba(255, 90, 140, 0.35);
+}
+
+.spx__pill {
+  position: absolute;
+  right: 14px;
+  top: 8px;
+  font-weight: 1000;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(0,0,0,0.22);
+  color: rgba(255,255,255,0.92);
+  backdrop-filter: blur(10px);
+}
