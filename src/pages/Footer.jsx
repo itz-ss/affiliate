@@ -190,7 +190,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="footerBottom">
           <div className="footerBottom__left">
-            © {year} Affillion Network. All rights reserved.
+            © {year} Leksuss Network. All rights reserved.
           </div>
           <div className="footerBottom__right">
             <a href="/privacy">Privacy</a>

@@ -86,7 +86,7 @@ const frontCloudsY = useTransform(
         className="hero__content"
       >
         <div className="hero__kicker">
-          AFFILLION NETWORK • PERFORMANCE AFFILIATE ENGINE
+          LEKSUSS NETWORK • PERFORMANCE AFFILIATE ENGINE
         </div>
 
         <h1 className="hero__title">
