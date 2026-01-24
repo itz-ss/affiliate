@@ -165,10 +165,11 @@
 }
 
 .hero__title .grad {
-  background: linear-gradient(90deg, #ffffff, #a9c6ff);
+  background: linear-gradient(90deg, #ffb86b, #ff4d8d);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-weight: bolder;
 
 }
 
