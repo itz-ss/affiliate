@@ -7,7 +7,7 @@ const WHATSAPP_NUMBER = "916388060502";
 
 const NAV = [
   { label: "Home", to: "/" },
-  { label: "Services", to: "/services" },
+  { label: "Services", to: "/#services" },
   { label: "How", to: "/#how" },
   { label: "Proof", to: "/#proof" },
   { label: "Contact", to: "/#contact" },
@@ -52,7 +52,6 @@ export default function Navbar() {
 
   const active = useMemo(() => {
     // exact routes
-    if (location.pathname === "/services") return "Services";
     if (location.pathname === "/") return "Home";
     return "";
   }, [location.pathname]);
@@ -85,7 +84,7 @@ export default function Navbar() {
           {/* Brand */}
           <Link to="/" className="nav__brand" onClick={() => setOpen(false)}>
             <span className="nav__dot" aria-hidden="true" />
-            <span className="nav__brandText">AFFILLION</span>
+            <span className="nav__brandText"> leksuss </span>
           </Link>
 
           {/* Desktop links */}
