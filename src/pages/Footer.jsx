@@ -100,7 +100,7 @@ export default function Footer() {
               <div className="footerBrand">
                 <div className="footerBrand__logo">
                   <span className="footerBrand__dot" />
-                  AFFILLION
+                  LEKSUSS
                 </div>
 
                 <p className="footerBrand__desc">
@@ -158,10 +158,10 @@ export default function Footer() {
             <div className="footerCol__title">Contact</div>
 
             <div className="footerContact">
-              <div className="line">
+              {/* <div className="line">
                 <span className="label">Email</span>
                 <a href="mailto:contact@affillionnetwork.com">contact@affillionnetwork.com</a>
-              </div>
+              </div> */}
 
               <div className="line">
                 <span className="label">WhatsApp</span>

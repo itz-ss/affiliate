@@ -74,7 +74,7 @@ export default function Contact() {
     );
 
     // Replace email
-    window.location.href = `mailto:rahulkushwaha2205@gmail.com?subject=${subject}&body=${body}`;
+    // window.location.href = `mailto:rahulkushwaha2205@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (
