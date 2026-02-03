@@ -182,7 +182,7 @@ export default function Contact() {
                   </h3>
 
                   <p className="contactPanel__desc">
-                    Prefer WhatsApp? Get a faster response and share offer details instantly.
+                    Prefer Telegram? Get a faster response and share offer details instantly.
                   </p>
 
                   <div className="contactPanel__ctaRow">
@@ -215,7 +215,7 @@ export default function Contact() {
             <form className="contactForm" onSubmit={handleMail}>
               <div className="contactForm__top">
                 <div className="contactForm__title">Send a message</div>
-                <div className="contactForm__hint">Or use WhatsApp for quick replies.</div>
+                <div className="contactForm__hint">Or use telegram for quick replies.</div>
               </div>
 
               <div className="contactForm__grid">

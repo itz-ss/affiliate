@@ -77,7 +77,7 @@ export default function Footer() {
               <span className="footerCta__grad">strategy → execution → scaling.</span>
             </div>
             <div className="footerCta__sub">
-              Fast response on WhatsApp. Serious performance systems for serious brands.
+              Fast response on telegram. Serious performance systems for serious brands.
             </div>
           </div>
 
