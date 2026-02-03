@@ -69,7 +69,7 @@ export default function Contact() {
   ${form.message || "-"}`
     );
   
-    const telegramUsername = "Rahulkushwaha_007"; // WITHOUT @
+    const telegramUsername = "talialorenlekusss"; // WITHOUT @
   
     window.open(
       `https://t.me/${telegramUsername}?text=${text}`,

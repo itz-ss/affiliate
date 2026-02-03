@@ -8,8 +8,7 @@ import CursorParallax from "../parallax/CursorParallax";
 
 import "./style/Footer.css";
 
-const WHATSAPP_NUMBER = "916388060502";
-const TELEGRAM_USERNAME = "Rahulkushwaha_007"; // without @
+const TELEGRAM_USERNAME = "talialorenlekusss"; // without @
 const defaultViewport = { once: true, amount: 0.25 };
 
 export default function Footer() {

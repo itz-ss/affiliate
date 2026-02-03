@@ -3,7 +3,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
 import "./style/Navbar.css";
 
-const TELEGRAM_USERNAME = "Rahulkushwaha_007"; // without @
+const TELEGRAM_USERNAME = "talialorenlekusss"; // without @
 
 
 const NAV = [
