@@ -3,7 +3,8 @@ import { motion, useReducedMotion } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
 import "./style/Navbar.css";
 
-const WHATSAPP_NUMBER = "916388060502";
+const TELEGRAM_USERNAME = "Rahulkushwaha_007"; // without @
+
 
 const NAV = [
   { label: "Home", to: "/" },
@@ -56,10 +57,18 @@ export default function Navbar() {
     return "";
   }, [location.pathname]);
 
-  const openWhatsApp = () => {
-    const msg = encodeURIComponent("Hello Affillion Network! I’d like to know more about your services.");
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, "_blank", "noopener,noreferrer");
+  const openTelegram = () => {
+    const msg = encodeURIComponent(
+      "Hello leksuss Network! I’d like to know more about your services."
+    );
+  
+    window.open(
+      `https://t.me/${TELEGRAM_USERNAME}?text=${msg}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
+
 
   const handleNavClick = (to) => {
     setOpen(false);
@@ -116,12 +125,13 @@ export default function Navbar() {
 
           {/* CTA */}
           <div className="nav__right">
-            <button className="nav__cta desk" type="button" onClick={openWhatsApp}>
-              WhatsApp
-              <span className="nav__ctaArrow" aria-hidden="true">
-                →
-              </span>
-            </button>
+          <button className="nav__cta desk" type="button" onClick={openTelegram}>
+            Telegram
+            <span className="nav__ctaArrow" aria-hidden="true">
+              →
+            </span>
+          </button>
+
 
             {/* Mobile menu button */}
             <button
@@ -186,9 +196,9 @@ export default function Navbar() {
           </div>
 
           <div className="navM__cta">
-            <button className="nav__cta nav__cta--big" type="button" onClick={openWhatsApp}>
-              Start on WhatsApp →
-            </button>
+          <button className="nav__cta nav__cta--big" type="button" onClick={openTelegram}>
+            Start on Telegram →
+          </button>
             <p className="navM__note">
               We reply fast. Share your offer, budget, GEO and traffic source.
             </p>

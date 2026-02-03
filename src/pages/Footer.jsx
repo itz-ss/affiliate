@@ -9,17 +9,23 @@ import CursorParallax from "../parallax/CursorParallax";
 import "./style/Footer.css";
 
 const WHATSAPP_NUMBER = "916388060502";
+const TELEGRAM_USERNAME = "Rahulkushwaha_007"; // without @
 const defaultViewport = { once: true, amount: 0.25 };
 
 export default function Footer() {
   const reduce = useReducedMotion();
   const year = new Date().getFullYear();
 
-  const openWhatsApp = () => {
+  const openTelegram = () => {
     const msg = encodeURIComponent(
-      "Hello Affillion Network! I’d like to know more about your services."
+      "Hello leksuss Network! I’d like to know more about your services."
     );
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, "_blank", "noopener,noreferrer");
+  
+    window.open(
+      `https://t.me/${TELEGRAM_USERNAME}?text=${msg}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   return (
@@ -77,8 +83,8 @@ export default function Footer() {
           </div>
 
           <div className="footerCta__right">
-            <button className="fBtn" onClick={openWhatsApp} type="button">
-              WhatsApp Now →
+            <button className="fBtn" onClick={openTelegram} type="button">
+              Telegram Now →
             </button>
             <a className="fBtn fBtn--ghost" href="#contact">
               Contact Form
@@ -164,8 +170,8 @@ export default function Footer() {
               </div> */}
 
               <div className="line">
-                <span className="label">WhatsApp</span>
-                <button className="linkBtn" type="button" onClick={openWhatsApp}>
+                <span className="label">Telegram</span>
+                <button className="linkBtn" type="button" onClick={openTelegram}>
                   Message us →
                 </button>
               </div>
@@ -176,8 +182,8 @@ export default function Footer() {
               </div>
 
               <div className="footerContact__cta">
-                <button className="fBtn" onClick={openWhatsApp} type="button">
-                  Start on WhatsApp →
+                <button className="fBtn" onClick={openTelegram} type="button">
+                  Start on telegram→
                 </button>
                 <a className="fBtn fBtn--ghost" href="#contact">
                   Book a Call

@@ -55,15 +55,27 @@ export default function Contact() {
     setForm((p) => ({ ...p, [name]: value }));
   };
 
-  const handleWhatsApp = () => {
+  const handleTelegram = () => {
     const text = encodeURIComponent(
-      `Hi Affillion Network,\n\nName: ${form.name || "-"}\nEmail: ${
-        form.email || "-"
-      }\nWhatsApp: ${form.whatsapp || "-"}\nService: ${
-        form.service
-      }\nBudget: ${form.budget}\n\nMessage:\n${form.message || "-"}`
+      `Hi Leksuss Network,
+  
+  Name: ${form.name || "-"}
+  Email: ${form.email || "-"}
+  WhatsApp: ${form.whatsapp || "-"}
+  Service: ${form.service}
+  Budget: ${form.budget}
+  
+  Message:
+  ${form.message || "-"}`
     );
-    window.open(`https://wa.me/${6388060502}?text=${text}`, "_blank", "noopener,noreferrer");
+  
+    const telegramUsername = "Rahulkushwaha_007"; // WITHOUT @
+  
+    window.open(
+      `https://t.me/${telegramUsername}?text=${text}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   const handleMail = (e) => {
@@ -174,8 +186,8 @@ export default function Contact() {
                   </p>
 
                   <div className="contactPanel__ctaRow">
-                    <button type="button" className="cBtn" onClick={handleWhatsApp}>
-                      WhatsApp Now →
+                    <button type="button" className="cBtn" onClick={handleTelegram}>
+                      Telegram Now →
                     </button>
                     <a className="cBtn cBtn--ghost" href="/services">
                       View Services
@@ -279,8 +291,8 @@ export default function Contact() {
                 <button className="cBtn" type="submit">
                   Send Email →
                 </button>
-                <button className="cBtn cBtn--ghost" type="button" onClick={handleWhatsApp}>
-                  WhatsApp →
+                <button className="cBtn cBtn--ghost" type="button" onClick={handleTelegram}>
+                  Telegram →
                 </button>
               </div>
 
