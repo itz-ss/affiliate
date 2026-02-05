@@ -20,8 +20,6 @@ const fadeUpSpring = {
   },
 };
 
-const WHATSAPP_NUMBER = "916388060502"; // countrycode + number
-
 export default function Contact() {
   const reduce = useReducedMotion();
 
@@ -61,7 +59,7 @@ export default function Contact() {
   
   Name: ${form.name || "-"}
   Email: ${form.email || "-"}
-  WhatsApp: ${form.whatsapp || "-"}
+  Telegram: ${form.telegram || "-"}
   Service: ${form.service}
   Budget: ${form.budget}
   
@@ -82,11 +80,11 @@ export default function Contact() {
     e.preventDefault();
     const subject = encodeURIComponent(`New Inquiry — ${form.service}`);
     const body = encodeURIComponent(
-      `Hi Team,\n\nName: ${form.name}\nEmail: ${form.email}\nWhatsApp: ${form.whatsapp}\nService: ${form.service}\nBudget: ${form.budget}\n\nMessage:\n${form.message}\n`
+      `Hi Team,\n\nName: ${form.name}\nEmail: ${form.email}\nTelegram: ${form.telegram}\nService: ${form.service}\nBudget: ${form.budget}\n\nMessage:\n${form.message}\n`
     );
 
     // Replace email
-    // window.location.href = `mailto:rahulkushwaha2205@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:talialoren@leksuss.com?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -243,12 +241,12 @@ export default function Contact() {
                 </label>
 
                 <label className="field">
-                  <span>WhatsApp</span>
+                  <span>Telegram number</span>
                   <input
-                    name="whatsapp"
-                    value={form.whatsapp}
+                    name="telegram"
+                    value={form.telegram}
                     onChange={onChange}
-                    placeholder="+91 9xxxxxxxxx"
+                    placeholder="9xxxxxxxxx"
                   />
                 </label>
 
