@@ -3,7 +3,7 @@ import Link from "next/link";
 import { COMPANY_DATA } from "../../data/companyData";
 
 export const metadata = {
-  title: "Privacy Policy | Leksuss Network",
+  title: "Privacy Policy",
   description: "Privacy policy and data protection commitments of Leksuss Network.",
   alternates: {
     canonical: `${COMPANY_DATA.url}/privacy`,

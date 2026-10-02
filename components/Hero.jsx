@@ -39,9 +39,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="font-heading text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tight leading-[1.05] max-w-5xl mx-auto"
         >
-          TURN TRAFFIC INTO{" "}
+          PERFORMANCE MARKETING{" "}
           <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent drop-shadow-[0_0_35px_rgba(0,240,255,0.4)]">
-            UNSTOPPABLE INCOME
+            THAT SCALES
           </span>
         </motion.h1>
 
@@ -52,7 +52,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mt-6 text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto font-normal leading-relaxed"
         >
-          A premium performance marketing ecosystem built for affiliates, media buyers, and brands who demand explosive scale, cookieless attribution, and ROI dominance.
+          Affiliate program management, paid traffic, conversion optimization, and cookieless attribution for brands, advertisers, and publishers growing across global markets.
         </motion.p>
 
         {/* Action Buttons */}

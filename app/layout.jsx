@@ -20,23 +20,12 @@ const outfit = Outfit({
 export const metadata = {
   metadataBase: new URL(COMPANY_DATA.url),
   title: {
-    default: `${COMPANY_DATA.name} | ${COMPANY_DATA.tagline}`,
-    template: `%s | ${COMPANY_DATA.name}`,
+    default: "Affiliate Marketing & Performance Growth | Leksuss Network",
+    template: "%s | Leksuss Network",
   },
-  description: COMPANY_DATA.description,
-  keywords: [
-    "Leksuss Network",
-    "Affiliate Marketing Network",
-    "Performance Marketing Engine",
-    "Paid Traffic Strategy",
-    "Conversion Optimization",
-    "S2S Tracking",
-    "Cookieless Attribution",
-    "Dating Affiliate Programs",
-    "iGaming Affiliate Offers",
-    "Financial Lead Gen",
-    "Nutra COD Offers",
-  ],
+  description:
+    "Grow with affiliate program management, paid traffic strategy, conversion optimization, cookieless tracking, and ad creative production from Leksuss Network.",
+  applicationName: "Leksuss Network",
   authors: [{ name: COMPANY_DATA.name, url: COMPANY_DATA.url }],
   creator: COMPANY_DATA.name,
   publisher: COMPANY_DATA.name,
@@ -55,22 +44,24 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: COMPANY_DATA.url,
-    title: COMPANY_DATA.name,
-    description: COMPANY_DATA.description,
-    siteName: COMPANY_DATA.name,
+    title: "Affiliate Marketing & Performance Growth | Leksuss Network",
+    description:
+      "Affiliate program management, paid media, conversion optimization, S2S tracking, and creative services for brands and publishers.",
+    siteName: "Leksuss Network",
     images: [
       {
         url: `${COMPANY_DATA.url}/services/affiliate.jpg`,
         width: 1200,
         height: 630,
-        alt: `${COMPANY_DATA.name} Performance Affiliate Engine`,
+        alt: "Leksuss Network affiliate marketing and performance growth services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: COMPANY_DATA.name,
-    description: COMPANY_DATA.description,
+    title: "Affiliate Marketing & Performance Growth | Leksuss Network",
+    description:
+      "Affiliate program management, paid media, conversion optimization, S2S tracking, and creative services for brands and publishers.",
     images: [`${COMPANY_DATA.url}/services/affiliate.jpg`],
   },
   alternates: {

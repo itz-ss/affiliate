@@ -5,9 +5,9 @@ export const SERVICES_DATA = [
     shortTitle: "Affiliate Marketing",
     icon: "🤝",
     image: "/services/affiliate.jpg",
-    metaTitle: "Affiliate Marketing & Partnership Management | Leksuss Network",
+    metaTitle: "Affiliate Program Management & Partner Recruitment",
     metaDescription:
-      "Scale performance revenue with custom affiliate program setup, high-converting partner recruitment, S2S tracking, commission structuring, and fraud defense.",
+      "Build an affiliate program with vetted publisher recruitment, CPA/CPL/RevShare commissions, S2S attribution, and ongoing partner management.",
     summary:
       "We build and manage high-performing affiliate programs that help brands scale through trusted partners, creators, and publishers. By designing smart commission structures, enabling affiliates with the right assets, and tracking performance accurately, we create partnerships that drive consistent, performance-based revenue with minimal upfront risk.",
     points: [
@@ -43,9 +43,9 @@ export const SERVICES_DATA = [
     shortTitle: "Paid Traffic Strategy",
     icon: "🚀",
     image: "/services/traffic.jpg",
-    metaTitle: "Multi-Platform Paid Traffic Strategy & Execution | Leksuss Network",
+    metaTitle: "Paid Media Strategy for Meta, Google & TikTok",
     metaDescription:
-      "Engineered paid ad campaigns across Meta, Google Ads, TikTok, and Native platforms to capture high-intent audiences with scalable cost-per-lead and maximum ROAS.",
+      "Plan and optimize paid campaigns across Meta, Google Ads, TikTok, and native networks with audience research, creative testing, and ROAS goals.",
     summary:
       "Our paid traffic strategies are engineered to capture high-intent audiences across major advertising platforms. We combine audience research, creative testing, and funnel alignment to generate quality leads and sales while keeping acquisition costs controlled and scalable.",
     points: [
@@ -71,7 +71,7 @@ export const SERVICES_DATA = [
       {
         question: "How do you control Customer Acquisition Costs (CAC)?",
         answer:
-          "We establish automated automated bid rules, aggressive creative rotation, and strict stop-loss thresholds to protect margins while scaling.",
+          "We establish automated bid rules, creative rotation, and stop-loss thresholds to protect margins while scaling.",
       },
     ],
   },
@@ -81,9 +81,9 @@ export const SERVICES_DATA = [
     shortTitle: "Conversion Optimization",
     icon: "⚡",
     image: "/services/conversion.jpg",
-    metaTitle: "Conversion Rate Optimization (CRO) & Campaign Scaling | Leksuss Network",
+    metaTitle: "Conversion Rate Optimization & Campaign Scaling",
     metaDescription:
-      "Maximize landing page conversion rates and scale traffic volume profitably with rigorous A/B testing, UI/UX optimization, and profit-focused growth frameworks.",
+      "Improve landing page conversions with A/B testing, funnel analysis, user experience improvements, and measured campaign scaling.",
     summary:
       "Traffic alone does not guarantee growth. We focus on optimizing every step of the user journey to increase conversions and reduce drop-offs. Once campaigns achieve consistent results, we scale them systematically to maximize profitability without compromising performance.",
     points: [
@@ -119,9 +119,9 @@ export const SERVICES_DATA = [
     shortTitle: "Tracking & Attribution",
     icon: "📊",
     image: "/services/analysis.jpg",
-    metaTitle: "Data Analytics, Cookieless Tracking & Attribution | Leksuss Network",
+    metaTitle: "Cookieless S2S Tracking & Marketing Attribution",
     metaDescription:
-      "Enterprise Server-to-Server tracking setup, custom attribution modeling, real-time analytics dashboards, and data-driven performance visibility.",
+      "Set up server-to-server tracking, conversion events, attribution models, and reporting dashboards for clearer campaign performance data.",
     summary:
       "Accurate data is the foundation of successful marketing. We implement advanced analytics, tracking, and attribution systems that provide complete visibility into campaign performance, helping businesses make informed decisions and allocate budgets effectively.",
     points: [
@@ -157,9 +157,9 @@ export const SERVICES_DATA = [
     shortTitle: "Content Creation",
     icon: "🎨",
     image: "/services/content.jpg",
-    metaTitle: "High-Converting Ad Content Creation & Messaging | Leksuss Network",
+    metaTitle: "Performance Ad Creative & Copywriting Services",
     metaDescription:
-      "Produce high-performing video ads, static visual creatives, persuasive copywriting, and localized brand assets built specifically for platform algorithms and conversions.",
+      "Create video ads, UGC concepts, static creatives, and conversion-focused copy tailored to Meta, TikTok, and native advertising campaigns.",
     summary:
       "Powerful content and clear messaging drive engagement and conversions. We create compelling visuals, videos, ad creatives, and copy that resonate with audiences, align with platform algorithms, and communicate brand value across every channel.",
     points: [

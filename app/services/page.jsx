@@ -7,7 +7,7 @@ import { COMPANY_DATA } from "../../data/companyData";
 import { getBreadcrumbSchema } from "../../lib/schema";
 
 export const metadata = {
-  title: "Performance Growth Services | Leksuss Network",
+  title: "Affiliate & Performance Marketing Services",
   description:
     "Explore Leksuss Network's core growth services: Affiliate Marketing Management, Paid Traffic Strategy, Conversion Optimization (CRO), S2S Tracking & Attribution, and High-Converting Ad Content Creation.",
   alternates: {

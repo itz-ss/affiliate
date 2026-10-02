@@ -9,6 +9,12 @@ import ContactSection from "../components/ContactSection";
 import { getFaqSchema, getHowToSchema } from "../lib/schema";
 import { COMPANY_DATA } from "../data/companyData";
 
+export const metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
+
 export default function HomePage() {
   const faqSchema = getFaqSchema(COMPANY_DATA.faqs);
   const howToSchema = getHowToSchema(COMPANY_DATA.workflow);

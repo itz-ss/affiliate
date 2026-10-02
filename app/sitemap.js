@@ -11,16 +11,10 @@ export default function sitemap() {
     "/terms",
   ].map((route) => ({
     url: `${baseUrl}${route}`,
-    lastModified: new Date().toISOString(),
-    changeFrequency: "weekly",
-    priority: route === "" ? 1.0 : 0.8,
   }));
 
   const serviceRoutes = SERVICES_DATA.map((service) => ({
     url: `${baseUrl}/services/${service.slug}`,
-    lastModified: new Date().toISOString(),
-    changeFrequency: "weekly",
-    priority: 0.9,
   }));
 
   return [...routes, ...serviceRoutes];
