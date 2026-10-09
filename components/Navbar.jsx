@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, Menu, X, Send, ShieldCheck, Zap } from "lucide-react";
+import { ArrowRight, Menu, X, ShieldCheck, Zap } from "lucide-react";
 import { COMPANY_DATA } from "../data/companyData";
 
 const NAV_ITEMS = [
@@ -47,10 +47,6 @@ export default function Navbar() {
       document.body.style.overflow = "";
     }
   }, [isOpen]);
-
-  const openTelegram = () => {
-    window.open(COMPANY_DATA.telegramUrl, "_blank", "noopener,noreferrer");
-  };
 
   return (
     <>
@@ -107,17 +103,27 @@ export default function Navbar() {
               })}
             </nav>
 
-            {/* Telegram Action & Mobile Toggle */}
+            {/* Signup Actions & Mobile Toggle */}
             <div className="flex items-center gap-3">
-              <button
-                type="button"
-                onClick={openTelegram}
-                className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold tracking-wide text-white bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 hover:from-cyan-400 hover:to-purple-500 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all duration-200 active:translate-y-0"
+              <a
+                href={COMPANY_DATA.publisherUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden sm:inline-flex items-center gap-2 px-3 py-2 rounded-full text-xs font-bold tracking-wide text-white bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 hover:from-cyan-400 hover:to-purple-500 shadow-lg shadow-cyan-500/25 transition-all duration-200"
               >
-                <Send className="w-3.5 h-3.5" />
-                <span>Telegram</span>
+                <span>Publisher</span>
                 <ArrowRight className="w-3.5 h-3.5" />
-              </button>
+              </a>
+
+              <a
+                href={COMPANY_DATA.advertiserUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden sm:inline-flex items-center gap-2 px-3 py-2 rounded-full text-xs font-bold tracking-wide text-slate-200 bg-white/5 hover:bg-white/10 border border-white/10 transition-all duration-200"
+              >
+                <span>Advertiser</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </a>
 
               <button
                 type="button"
@@ -185,17 +191,27 @@ export default function Navbar() {
               </div>
 
               <div className="pt-6 border-t border-white/10 space-y-3">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setIsOpen(false);
-                    openTelegram();
-                  }}
+                <a
+                  href={COMPANY_DATA.publisherUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsOpen(false)}
                   className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 shadow-lg shadow-cyan-500/20"
                 >
-                  <Send className="w-4 h-4" />
-                  <span>Start on Telegram</span>
-                </button>
+                  Publisher Signup
+                  <ArrowRight className="w-4 h-4" />
+                </a>
+
+                <a
+                  href={COMPANY_DATA.advertiserUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsOpen(false)}
+                  className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-slate-200 bg-white/5 hover:bg-white/10 border border-white/10"
+                >
+                  Advertiser Signup
+                  <ArrowRight className="w-4 h-4" />
+                </a>
 
                 <div className="flex items-center gap-2 justify-center text-xs text-slate-400">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />

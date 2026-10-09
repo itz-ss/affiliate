@@ -7,10 +7,6 @@ import { ArrowRight, Sparkles, Shield, TrendingUp, Globe2, Activity } from "luci
 import { COMPANY_DATA } from "../data/companyData";
 
 export default function Hero() {
-  const openTelegram = () => {
-    window.open(COMPANY_DATA.telegramUrl, "_blank", "noopener,noreferrer");
-  };
-
   return (
     <section className="relative min-h-[92vh] flex items-center justify-center pt-28 pb-16 overflow-hidden bg-[#05070c]">
       {/* Dynamic Background Glows */}
@@ -60,20 +56,31 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto"
+          className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 max-w-3xl mx-auto"
         >
-          <button
-            type="button"
-            onClick={openTelegram}
-            className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-8 py-4 rounded-full text-sm font-bold text-white bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 hover:from-cyan-400 hover:to-purple-500 shadow-xl shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all duration-200"
+          <a
+            href={COMPANY_DATA.publisherUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-7 py-4 rounded-full text-sm font-bold text-white bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 hover:from-cyan-400 hover:to-purple-500 shadow-xl shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all duration-200"
           >
-            <span>JOIN THE NETWORK</span>
+            <span>Publisher Signup</span>
             <ArrowRight className="w-4 h-4" />
-          </button>
+          </a>
+
+          <a
+            href={COMPANY_DATA.advertiserUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-7 py-4 rounded-full text-sm font-bold text-white bg-white/10 hover:bg-white/15 border border-white/15 transition-all duration-200"
+          >
+            <span>Advertiser Signup</span>
+            <ArrowRight className="w-4 h-4" />
+          </a>
 
           <Link
             href="/services"
-            className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-full text-sm font-semibold text-slate-200 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 backdrop-blur-md transition-all duration-200"
+            className="w-full sm:w-auto flex items-center justify-center gap-2 px-7 py-4 rounded-full text-sm font-semibold text-slate-200 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 backdrop-blur-md transition-all duration-200"
           >
             <span>Explore Programs</span>
           </Link>

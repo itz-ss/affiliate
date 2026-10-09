@@ -8,6 +8,8 @@ export const COMPANY_DATA = {
   domain: "leksuss.com",
   telegramUsername: "talialorenlekusss",
   telegramUrl: "https://t.me/talialorenlekusss",
+  publisherUrl: "https://leksuss.offerborn.com/publisher",
+  advertiserUrl: "https://leksuss.offerborn.com/advertiser/register",
   email: "talialoren@leksuss.com",
   founded: "2022",
   areaServed: "Global (47+ Countries)",

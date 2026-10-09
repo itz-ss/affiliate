@@ -13,13 +13,13 @@ export default function ContactSection() {
     email: "",
     telegram: "",
     service: SERVICES_DATA[0].title,
-    budget: "₹15k–₹50k",
+    budget: "$500–$1,000",
     message: "",
   });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const budgets = ["₹15k–₹50k", "₹50k–₹1L", "₹1L–₹3L", "₹3L+", "Not sure yet"];
+  const budgets = ["$500–$1,000", "$1,000–$10,000", "$10,000–$50,000", "$50,000+", "Not sure yet"];
 
   const handleChange = (e) => {
     const { name, value } = e.target;
